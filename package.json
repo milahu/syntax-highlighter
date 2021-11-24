@@ -49,7 +49,8 @@
         "Bash",
         "OCaml",
         "Lua",
-        "D"
+        "D",
+        "Nix"
     ],
     "activationEvents": [
         "onLanguage:c",
@@ -65,7 +66,8 @@
         "onLanguage:shellscript",
         "onLanguage:ocaml",
         "onLanguage:lua",
-        "onLanguage:d"
+        "onLanguage:d",
+        "onLanguage:nix"
     ],
     "main": "./out/extension.js",
     "scripts": {
@@ -95,6 +97,7 @@
         "tree-sitter-go": "^0.19.1",
         "tree-sitter-javascript": "^0.19.0",
         "tree-sitter-lua": "^1.6.2",
+        "tree-sitter-nix": "github:cstrahan/tree-sitter-nix",
         "tree-sitter-ocaml": "^0.19.0",
         "tree-sitter-php": "^0.19.0",
         "tree-sitter-python": "^0.19.0",
@@ -149,7 +152,8 @@
                         "shellscript",
                         "ocaml",
                         "lua",
-                        "d"
+                        "d",
+                        "nix"
                     ]
                 },
                 "syntax.highlightTerms": {
